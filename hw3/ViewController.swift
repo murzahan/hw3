@@ -8,12 +8,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var mainColourFrame: UIView!
+    @IBOutlet weak var radColor: UISlider!
+    @IBOutlet weak var greenColor: UISlider!
+    @IBOutlet weak var blueColor: UISlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        mainColourFrame.backgroundColor =
+        
     }
 
-
+    @IBAction func redAction() {
+    //    mainColourFrame.backgroundColor = String(UISlider.value)
+    }
+    
+    @IBAction func greenAction() {
+    }
+    @IBAction func blueAction() {
+    }
 }
 
